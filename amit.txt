@@ -1,0 +1,4 @@
+Now, let’s bring back the try-catch error handling to make sure the file is not exactly one line long.
+Because if it is, the seek() will never encounter a line break character as there are none.
+Let’s also use the os module’s constants SEEK_END and
+SEEK_CUR instead of plain 1 or 2
